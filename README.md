@@ -8,3 +8,19 @@ Suggested Way to Organize Code
   - Create a folder within that repository for each chapter in the book.
   - Create a separate file for every exercise in the chapter.
 
+## Useful Resources / References
+
+- [Ruby Style Guide](https://rubystyle.guide/)
+
+
+*Debugging* w/ pry
+
+```ruby
+# preparation.rb
+require "pry"
+
+a = [1, 2, 3]
+a << 4
+binding.pry     # execution will pause here, allowing you to inspect all objects
+puts a
+```
